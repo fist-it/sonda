@@ -1,5 +1,0 @@
-package sonda
-
-func main() {
-
-}

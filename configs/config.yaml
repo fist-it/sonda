@@ -1,0 +1,4 @@
+services:
+  - name: "Example Web"
+    url: "https://google.com/"
+    interval: 10s

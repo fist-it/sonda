@@ -22,7 +22,7 @@ type Config struct {
 
 func (c *Config) validate() error { // {{{
 	if c.Port <= 0 || c.Port > 65535 {
-		c.Port = 12005
+		c.Port = 8080 // default port 
 	}
 	
 	if len(c.Services) == 0 {

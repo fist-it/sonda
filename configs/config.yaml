@@ -1,4 +1,11 @@
 services:
-  - name: "Example Web"
-    url: "https://google.com/"
-    interval: 10s
+  - name: "Website"
+    url: "https://example.com"
+    interval: 30s
+    timeout: 5s
+  - name: "API"
+    url: "https://api.example.com/health"
+    interval: 15s
+    timeout: 3s
+
+port: 8080
